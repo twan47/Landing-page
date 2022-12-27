@@ -8,6 +8,11 @@
     justify-items: flex-end;
 }
 
+.header >div{
+    display: flex;
+    flex-wrap: nowrap;
+}
+
 .logo {
     display: flex;
     align-self: center;
@@ -18,8 +23,13 @@
 
 .list {
     display:flex;
+    flex-direction:row-reverse;
     flex-wrap: nowrap;
     list-style: none;
+}
+
+.list li{
+    list-style:none;
 }
 
 .list li a{
@@ -30,13 +40,17 @@
 
 .container {
     display: flex;
+    flex-direction:column;
+    align-items: flex-start;
+    padding:100px;
     background-color: #1f2937;
     color: #f9faf8;
     font-family: monospace;
     justify-content: space-around;
 }
 
-.button {
-    color:#3882f6;
+button {
+    background-color:#3882f6;
+    color:#f9faf8
 }
 
