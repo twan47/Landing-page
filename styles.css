@@ -5,7 +5,7 @@
     height: 72px;
     align-content: space-around;
     font-family: monospace;
-    justify-content: space-between;
+    justify-content: flex-start;
     padding-left: 100px;
     padding-right: 100px;
 }
@@ -14,6 +14,8 @@
     display: flex;
     align-self: center;
     justify-self: flex-start;
+    font-size: 18px;
+    font-weight: bold;
 }
 
 .list {
@@ -22,6 +24,7 @@
     flex-wrap: nowrap;
     list-style: none;
     justify-content: flex-end;
+    padding-top: 12px;
 }
 
 .list ul{
@@ -51,6 +54,10 @@
 
 button {
     background-color:#3882f6;
-    color:#f9faf8
+    color:#f9faf8;
 }
 
+h1 {
+    font-size: 48px;
+    font-weight: bolder;
+}
