@@ -63,6 +63,7 @@ button {
     border-radius: 5px;
     font-size: large;
     font-family: monospace;
+    padding: 8px 30px;
 }
 
 h1 {
