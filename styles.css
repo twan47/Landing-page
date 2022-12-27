@@ -59,6 +59,10 @@
 button {
     background-color:#3882f6;
     color:#f9faf8;
+    border: #3882f6;
+    border-radius: 5px;
+    font-size: large;
+    font-family: monospace;
 }
 
 h1 {
