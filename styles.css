@@ -16,6 +16,15 @@
     justify-self: flex-start;
 }
 
+.list {
+    display:flex;
+    flex-wrap: none;
+}
+
+.list ul{
+    white-space: nowrap;
+}
+
 .list li{
     list-style: none;
 }
