@@ -51,6 +51,11 @@
     justify-content: space-between;
 }
 
+.text-container {
+    display: flex;
+    flex-direction: column;
+}
+
 button {
     background-color:#3882f6;
     color:#f9faf8;
@@ -60,6 +65,13 @@ h1 {
     font-size: 48px;
     font-weight: bolder;
     color: #f9faf8;
+}
+
+.main {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .image-placeholder{
