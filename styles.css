@@ -13,6 +13,7 @@
 .logo {
     display: flex;
     align-self: center;
+    justify-self: flex-start;
 }
 
 .list {
@@ -20,12 +21,14 @@
     flex: 1;
     flex-wrap: nowrap;
     list-style: none;
-    flex-direction: row-reverse;
-    margin-right: 30px;
-    justify-self: flex-end;
+    justify-content: flex-end;
 }
 
-.list li{
+.list ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap: 30px;
     list-style:none;
 }
 
