@@ -18,25 +18,13 @@
 
 .list {
     display:flex;
-    flex-wrap: none;
-}
-
-.list ul{
-    white-space: nowrap;
-}
-
-.list li{
+    flex-wrap: nowrap;
     list-style: none;
 }
 
 .list li a{
     display: flex;
-    align-items: center;
-    list-style: none;
-    gap:30px;
-    padding-right: 20px;
     text-decoration: none;
-    justify-content: flex-start;
     color: #f9faf8;
 }
 
