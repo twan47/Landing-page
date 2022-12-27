@@ -8,11 +8,6 @@
     justify-items: flex-end;
 }
 
-.header >div{
-    display: flex;
-    flex-wrap: nowrap;
-}
-
 .logo {
     display: flex;
     align-self: center;
@@ -23,9 +18,11 @@
 
 .list {
     display:flex;
+    flex: 1;
     flex-direction:row-reverse;
     flex-wrap: nowrap;
     list-style: none;
+    margin-right: 30px;
 }
 
 .list li{
