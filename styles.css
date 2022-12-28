@@ -88,11 +88,21 @@ h1 {
 }
 
 .container-two {
-    justify-content: center;
+    display: flex;;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;
+    font-family: monospace;
 }
 
 .h2 {
+    display: flex;
     size: 36px;
     font-weight: bolder;
     color:#1f2937;
+}
+
+.box-text {
+    display: flex;
+    flex-direction: row;
 }
