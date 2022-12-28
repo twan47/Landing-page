@@ -105,3 +105,9 @@ h1 {
     color:#1f2937;
     font-family: monospace;
 }
+
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: #f9faf8;
+}
