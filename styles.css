@@ -86,3 +86,13 @@ h1 {
     margin: 20px;
     margin-left:auto;
 }
+
+.container-two {
+    justify-content: center;
+}
+
+.h2 {
+    size: 36px;
+    font-weight: bolder;
+    color:#1f2937;
+}
