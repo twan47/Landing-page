@@ -110,4 +110,6 @@ h1 {
     width: 100px;
     height: 100px;
     background-color: #f9faf8;
+    border: 2px #3882f6 solid;
+    border-radius: 5px;
 }
