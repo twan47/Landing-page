@@ -91,9 +91,10 @@ h1 {
     display: flex;
     font-family: monospace;
     height:150px;
-    justify-content: space-around;
+    justify-content: center;
     flex-wrap: wrap;
     align-items:center;
+    gap: 100px;
 }
 
 .h2 {
@@ -114,7 +115,6 @@ h1 {
     border: 2px #3882f6 solid;
     border-radius: 5px;
     flex-wrap: wrap;
-    justify-items: center;
+    justify-content: center;
     margin-top: 25px;
 }
-
