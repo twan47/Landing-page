@@ -118,9 +118,3 @@ h1 {
 }
 
 .box-text {
-    display: flex;
-    flex-wrap: wrap;
-    margin-top: 150px;
-    align-self: center;
-    justify-items: center;
-}
