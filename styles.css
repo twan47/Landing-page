@@ -90,9 +90,10 @@ h1 {
 .container-two {
     display: flex;
     font-family: monospace;
-    flex-direction: row;
     height:150px;
-    gap: 40px;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items:center;
 }
 
 .h2 {
@@ -112,12 +113,14 @@ h1 {
     background-color: #f9faf8;
     border: 2px #3882f6 solid;
     border-radius: 5px;
-    justify-content: center;
+    flex-wrap: wrap;
+    justify-items: center;
 }
 
 .box-text {
     display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: 200px;
+    flex-wrap: wrap;
+    margin-top: 150px;
+    align-self: center;
+    justify-items: center;
 }
