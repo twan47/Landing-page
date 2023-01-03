@@ -134,3 +134,26 @@ h1 {
     color: #1f2937;
     font-family: monospace;
 }
+
+.container-call {
+    display:flex;
+    background-color: #3882f6;
+    height: 100px;
+    margin: 150px;
+    border-radius: 5px;
+}
+
+.cta {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 10px;
+    margin-left: 5px;
+}
+
+.call-button {
+    display: flex;
+    align-items: center;
+    justify-items: flex-end;
+}
