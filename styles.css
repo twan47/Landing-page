@@ -91,7 +91,7 @@ h1 {
     display: flex;
     font-family: monospace;
     height:150px;
-    justify-content: center;
+    justify-content: space-around;
     flex-wrap: wrap;
     align-items:center;
 }
@@ -115,4 +115,6 @@ h1 {
     border-radius: 5px;
     flex-wrap: wrap;
     justify-items: center;
+    margin-top: 25px;
 }
+
