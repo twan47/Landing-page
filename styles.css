@@ -184,3 +184,13 @@ h1 {
     display: flex;
     justify-content: center;
 }
+
+.footer {
+    display: flex;
+    background-color: #1f2937;
+    color:#f9faf8;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    font-family: monospace;
+}
