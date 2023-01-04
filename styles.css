@@ -161,13 +161,21 @@ h1 {
     display: flex;
     align-items: center;
     justify-items: flex-end;
-    border: #f9faf8;
+    border:#f9faf8 solid;
     border-radius: 5px;
-    border-width: 5px;
-    margin-left: 100px;
+    border-width: 1px;
+    height: 20px;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding: 8px 30px;
 }
 
 .its-time {
     font-size: 18px;
     font-weight: bold;
+}
+
+.sign-up {
+    font-size: 14px;
+    font-weight:1000px;
 }
