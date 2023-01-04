@@ -179,3 +179,8 @@ h1 {
     font-size: 14px;
     font-weight:1000px;
 }
+
+.big-container {
+    display: flex;
+    justify-content: center;
+}
