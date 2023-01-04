@@ -138,23 +138,36 @@ h1 {
 .container-call {
     display:flex;
     background-color: #3882f6;
+    width: 700px;
     height: 100px;
     margin: 150px;
     border-radius: 5px;
+    border:#f9faf8 1px;
     color: #f9faf8;
+    flex-wrap: wrap;
+    justify-self: center;
+    justify-content: center;
+    align-content: center;
+    font-family: monospace;
 }
 
 .cta {
     display: flex;
-    justify-content: flex-start;
-    align-items: center;
+    justify-content: center;
     flex-direction: column;
-    margin-top: 10px;
-    margin-left: 5px;
 }
 
 .call-button {
     display: flex;
     align-items: center;
     justify-items: flex-end;
+    border: #f9faf8;
+    border-radius: 5px;
+    border-width: 5px;
+    margin-left: 100px;
+}
+
+.its-time {
+    font-size: 18px;
+    font-weight: bold;
 }
